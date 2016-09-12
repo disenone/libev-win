@@ -58,9 +58,6 @@ macro(config_compiler_and_linker)
 endmacro()
 
 config_compiler_and_linker()
-message("gnu cxx ${CMAKE_COMPILER_IS_GNUCXX}")
-message("cxx flags ${CMAKE_CXX_FLAGS}")
-message("c flags ${CMAKE_C_FLAGS}")
 
 include_directories(${PROJECT_SOURCE_DIR})
 set(LIBEV_SOURCES "ev.c;event.c")
