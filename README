@@ -1,6 +1,12 @@
 libev is a high-performance event loop/event model with lots of features.
 (see benchmark at http://libev.schmorp.de/bench.html)
 
+BUILD
+- mkdir build
+- cd build
+- cmake ..
+- cmake --build .
+
 
 ABOUT
 
